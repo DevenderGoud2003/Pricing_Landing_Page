@@ -53,6 +53,7 @@ p.plan-type{
 h1.title{
     letter-spacing: 2px;
     margin-bottom: 1.5rem;
+    margin-top: 10%;
 
 }
 
@@ -164,8 +165,11 @@ h2>span{
 
 #card-1 .card-btn:hover,
 #card-3 .card-btn:hover,
-.active{
+.active .card-btn{
     background-color: #BC1E4A;
+}
+#card2 .card-btn:hover{
+    background-color: #22262C;
 }
 
 #maus{
@@ -196,7 +200,7 @@ option{
     margin-top: 3rem;
 }
 .card-3 ul{
-    margin-top: 7.5rem;
+    margin-top: 6.3rem;
 }
 @media(max-width:1112px){
     .cards{
